@@ -1,5 +1,5 @@
 # საქართველოს კონსტიტუცია // CONSTITUTION OF GEORGIA
-# tit-i.github.io/constitution.github.io
+# tit-i.github.io/constitution
 
 საქართველოს რესპუბლიკის კონსტიტუციის ვებსაიტი.
 
