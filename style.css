@@ -216,31 +216,12 @@ ul#list {
 	font-weight: bold;
 }
 /* ტელეფონებისთვის */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* */
-@media screen and (min-width: 580px) and (max-width: 629px) {
+/* ძაან პატარა */
+@media screen and (min-width: 0px) and (max-width: 579px) {
 	.list-container {
 	position: absolute;
 	left: 50%;
-	top: 225%;
+	top: 189%;
 	transform: translate(-50%, -50%);
 	}
 	.result-font {
@@ -292,23 +273,80 @@ ul#list {
 	transform: translate(-50%, -50%);
 	}
 }
+/* პატარა */
+@media screen and (min-width: 580px) and (max-width: 655px) {
+	.list-container {
+	position: absolute;
+	left: 50%;
+	top: 189%;
+	transform: translate(-50%, -50%);
+	}
+	.result-font {
+	font-size: 0.6em;
+	}
+	.border-1 {
+	width: 367px;
+	height: 22px;
+	}
+	.border {
+	width: 367px;
+	height: 55px;
+	}
+	.more-info {
+	font-size: 0.425em;
+	}
+	.info {
+	font-size: 0.775em;
+	}
+	nav {
+        padding: 0 3px;
+    }
+    #header-ul li a {
+        padding: 0 8px;
+        font-size: 1.2em;
+    }
+    .brand {
+        font-size: 1.2em;
+    }
+    .menu-button {
+        font-size: 1.2em;
+    }
+	.search-box{
+	width: 380px;
+	background: #000;
+	margin: 200px auto 0;
+	border-radius: 20px;
+	}
+	.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.flex {
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+}
 /* საშვალოზე ცოტა პატარა */
 @media screen and (min-width: 656px) and (max-width: 689px) {
 	.list-container {
 	position: absolute;
-	left: 50%;
-	top: 225%;
+	left: 51.6%;
+	top: 190%;
 	transform: translate(-50%, -50%);
 	}
 	.result-font {
 	font-size: 0.65em;
 	}
 	.border-1 {
-	width: 370px;
+	width: 368px;
 	height: 25px;
 	}
 	.border {
-	width: 370px;
+	width: 368px;
 	height: 58px;
 	}
 	.more-info {
@@ -349,12 +387,12 @@ ul#list {
 	transform: translate(-50%, -50%);
 	}
 }
-/* საშვალოზე პატარა */
+/* საშვალო */
 @media screen and (min-width: 690px) and (max-width: 749px) {
 	.list-container {
 	position: absolute;
-	left: 50%;
-	top: 225%;
+	left: 51.2%;
+	top: 190%;
 	transform: translate(-50%, -50%);
 	}
 	.result-font {
@@ -406,23 +444,23 @@ ul#list {
 	transform: translate(-50%, -50%);
 	}
 }
-/* საშვალო */
+/* საშვალოზე დიდი */
 @media screen and (min-width: 750px) and (max-width: 849px) {
 	.list-container {
 	position: absolute;
 	left: 50%;
-	top: 225%;
+	top: 205%;
 	transform: translate(-50%, -50%);
 	}
 	.result-font {
 	font-size: 0.7em;
 	}
 	.border-1 {
-	width: 385px;
+	width: 390px;
 	height: 30px;
 	}
 	.border {
-	width: 385px;
+	width: 390px;
 	height: 75px;
 	}
 	.more-info {
@@ -464,23 +502,23 @@ ul#list {
 	}
 }
 
-/* საშვალოზე დიდი */
+/* დიდი */
 @media screen and (min-width: 850px) and (max-width: 989px) {
 	.list-container {
 	position: absolute;
 	left: 47.75%;
-	top: 225%;
+	top: 205%;
 	transform: translate(-50%, -50%);
 	}
 	.result-font {
 	font-size: 0.75em;
 	}
 	.border-1 {
-	width: 400px;
+	width: 425px;
 	height: 30px;
 	}
 	.border {
-	width: 400px;
+	width: 425px;
 	height: 75px;
 	}
 	.more-info {
@@ -521,17 +559,20 @@ ul#list {
 	transform: translate(-50%, -50%);
 	}
 }
-/* დიდი */
+/* ძაან დიდი */
 @media screen and (min-width: 990px) and (max-width: 1074px) {
+	.list-container {
+		top: 205%;
+	}
 	.result-font {
 	font-size: 0.8em;
 	}
 	.border-1 {
-	width: 450px;
+	width: 474px;
 	height: 30px;
 	}
 	.border {
-	width: 450px;
+	width: 474px;
 	height: 75px;
 	}
 	.info {
