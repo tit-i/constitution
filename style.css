@@ -216,6 +216,376 @@ ul#list {
 	font-weight: bold;
 }
 /* ტელეფონებისთვის */
-@media screen (max-width: 1024px) {
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
+@media screen and (min-width: 580px) and (max-width: 629px) {
+	.list-container {
+	position: absolute;
+	left: 50%;
+	top: 225%;
+	transform: translate(-50%, -50%);
+	}
+	.result-font {
+	font-size: 0.6em;
+	}
+	.border-1 {
+	width: 350px;
+	height: 22px;
+	}
+	.border {
+	width: 350px;
+	height: 55px;
+	}
+	.more-info {
+	font-size: 0.425em;
+	}
+	.info {
+	font-size: 0.775em;
+	}
+	nav {
+        padding: 0 3px;
+    }
+    #header-ul li a {
+        padding: 0 8px;
+        font-size: 1.2em;
+    }
+    .brand {
+        font-size: 1.2em;
+    }
+    .menu-button {
+        font-size: 1.2em;
+    }
+	.search-box{
+	width: 380px;
+	background: #000;
+	margin: 200px auto 0;
+	border-radius: 20px;
+	}
+	.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.flex {
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+}
+/* საშვალოზე ცოტა პატარა */
+@media screen and (min-width: 656px) and (max-width: 689px) {
+	.list-container {
+	position: absolute;
+	left: 50%;
+	top: 225%;
+	transform: translate(-50%, -50%);
+	}
+	.result-font {
+	font-size: 0.65em;
+	}
+	.border-1 {
+	width: 370px;
+	height: 25px;
+	}
+	.border {
+	width: 370px;
+	height: 58px;
+	}
+	.more-info {
+	font-size: 0.45em;
+	}
+	.info {
+	font-size: 0.8em;
+	}
+	nav {
+        padding: 0 3px;
+    }
+    #header-ul li a {
+        padding: 0 8px;
+        font-size: 1.3em;
+    }
+    .brand {
+        font-size: 1.3em;
+    }
+    .menu-button {
+        font-size: 1.3em;
+    }
+	.search-box{
+	width: 400px;
+	background: #000;
+	margin: 200px auto 0;
+	border-radius: 20px;
+	}
+	.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.flex {
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+}
+/* საშვალოზე პატარა */
+@media screen and (min-width: 690px) and (max-width: 749px) {
+	.list-container {
+	position: absolute;
+	left: 50%;
+	top: 225%;
+	transform: translate(-50%, -50%);
+	}
+	.result-font {
+	font-size: 0.65em;
+	}
+	.border-1 {
+	width: 370px;
+	height: 25px;
+	}
+	.border {
+	width: 370px;
+	height: 58px;
+	}
+	.more-info {
+	font-size: 0.45em;
+	}
+	.info {
+	font-size: 0.8em;
+	}
+	nav {
+        padding: 0 5px;
+    }
+    #header-ul li a {
+        padding: 0 10px;
+        font-size: 1.4em;
+    }
+    .brand {
+        font-size: 1.4em;
+    }
+    .menu-button {
+        font-size: 1.4em;
+    }
+	.search-box{
+	width: 400px;
+	background: #000;
+	margin: 200px auto 0;
+	border-radius: 20px;
+	}
+	.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.flex {
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+}
+/* საშვალო */
+@media screen and (min-width: 750px) and (max-width: 849px) {
+	.list-container {
+	position: absolute;
+	left: 50%;
+	top: 225%;
+	transform: translate(-50%, -50%);
+	}
+	.result-font {
+	font-size: 0.7em;
+	}
+	.border-1 {
+	width: 385px;
+	height: 30px;
+	}
+	.border {
+	width: 385px;
+	height: 75px;
+	}
+	.more-info {
+	font-size: 0.5em;
+	}
+	.info {
+	font-size: 0.85em;
+	}
+	nav {
+        padding: 0 10px;
+    }
+    #header-ul li a {
+        padding: 0 12px;
+        font-size: 1.5em;
+    }
+    .brand {
+        font-size: 1.5em;
+    }
+    .menu-button {
+        font-size: 1.5em;
+    }
+	.search-box{
+	width: 425px;
+	background: #000;
+	margin: 200px auto 0;
+	border-radius: 20px;
+	}
+	.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.flex {
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+}
+
+/* საშვალოზე დიდი */
+@media screen and (min-width: 850px) and (max-width: 989px) {
+	.list-container {
+	position: absolute;
+	left: 47.75%;
+	top: 225%;
+	transform: translate(-50%, -50%);
+	}
+	.result-font {
+	font-size: 0.75em;
+	}
+	.border-1 {
+	width: 400px;
+	height: 30px;
+	}
+	.border {
+	width: 400px;
+	height: 75px;
+	}
+	.more-info {
+	font-size: 0.55em;
+	}
+	.info {
+	font-size: 0.90em;
+	}
+	nav {
+        padding: 0 10px;
+    }
+    #header-ul li a {
+        padding: 0 12px;
+        font-size: 1.5em;
+    }
+    .brand {
+        font-size: 1.5em;
+    }
+    .menu-button {
+        font-size: 1.5em;
+    }
+	.search-box{
+	width: 450px;
+	background: #000;
+	margin: 200px auto 0;
+	border-radius: 20px;
+	}
+	.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.flex {
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+}
+/* დიდი */
+@media screen and (min-width: 990px) and (max-width: 1074px) {
+	.result-font {
+	font-size: 0.8em;
+	}
+	.border-1 {
+	width: 450px;
+	height: 30px;
+	}
+	.border {
+	width: 450px;
+	height: 75px;
+	}
+	.info {
+		font-size: 0.95em;
+	}
+	.more-info {
+		font-size: 0.57em;
+	}
+	nav {
+        padding: 0 10px;
+    }
+    #header-ul li a {
+        padding: 0 12px;
+        font-size: 1.5em;
+    }
+    .brand {
+        font-size: 1.5em;
+    }
+    .menu-button {
+        font-size: 1.5em;
+    }
+	.search-box{
+	width: 500px;
+	background: #000;
+	margin: 200px auto 0;
+	border-radius: 20px;
+	}
+	.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.flex {
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+	.result-box{
+	max-height: 350px;
+	overflow: scroll;
+	scrollbar-width: normal;
+	scrollbar-color: #787678 #4D4C4D;
+	}
+	.result-box ul{
+	border-top: 1px solid #999;
+	color: #fff;
+	padding: 15px 10px;
+	}
+	.result-box ul li{
+	list-style: none;
+	border-radius: 3px;
+	padding: 15px 10px;
+	cursor: pointer;
+	}
 }
