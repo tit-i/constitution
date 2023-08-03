@@ -79,27 +79,12 @@ nav {
 .more-info {
 	font-size: 0.6em;
 }
-.border-1 {
-	border-radius: 30px;
-	padding: 20px;
-	margin: 20px;
-	width: 500px;
-	height: 35px;
-}
 #btn {
 	display: inline-block;
 	cursor: pointer;
 }
 #btn:hover {
 	background-color: #267aca;
-}
-.border {
-	border-radius: 30px;
-	padding: 20px;
-	margin: 20px;
-	width: 500px;
-	height: 75px;	
-	cursor: pointer;
 }
 .text-pages {
 	margin-left: 120px;
@@ -111,7 +96,6 @@ nav {
 .more-page-info {
 	font-size: 0.6em;
 }
-
 .search-box{
 	width: 600px;
 	background: #000;
@@ -195,12 +179,6 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-track {
 	background-color: #CECECE;
 }
-.list-container {
-	position: absolute;
-	left: 45.8%;
-	top: 225%;
-	transform: translate(-50%, -50%);
-}
 :target{
 	background-color: #267aca;
 	color: black;
@@ -210,12 +188,32 @@ ul#list {
     padding-top: 0;
 }
 .result-font {
-	font-size: 1.0em;
+	font-size: 0.9em;
 	text-decoration: none;
 	color: #fff;
 	font-weight: bold;
 }
-/* ტელეფონებისთვის */
+.border-1 {
+	border-radius: 30px;
+	padding: 20px;
+	margin: 20px;
+	width: 573px;
+	height: 35px;
+}
+.border {
+	border-radius: 30px;
+	padding: 20px;
+	margin: 20px;
+	width: 573px;
+	height: 75px;	
+	cursor: pointer;
+}
+.list-container {
+	position: absolute;
+	left: 43.2%;
+	top: 205%;
+	transform: translate(-50%, -50%);
+}
 /* ძაან პატარა */
 @media screen and (min-width: 0px) and (max-width: 579px) {
 	.list-container {
