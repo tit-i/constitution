@@ -214,23 +214,22 @@ ul#list {
 	top: 205%;
 	transform: translate(-50%, -50%);
 }
-/* ძაან პატარა */
-@media screen and (min-width: 0px) and (max-width: 579px) {
+@media screen and (min-width: 517px) and (max-width: 533px) {
 	.list-container {
 	position: absolute;
-	left: 50%;
-	top: 189%;
+	left: 59.6%;
+	top: 192%;
 	transform: translate(-50%, -50%);
 	}
 	.result-font {
-	font-size: 0.6em;
+	font-size: 0.5em;
 	}
 	.border-1 {
-	width: 350px;
+	width: 290px;
 	height: 22px;
 	}
 	.border {
-	width: 350px;
+	width: 290px;
 	height: 55px;
 	}
 	.more-info {
@@ -253,7 +252,64 @@ ul#list {
         font-size: 1.2em;
     }
 	.search-box{
-	width: 380px;
+	width: 320px;
+	background: #000;
+	margin: 200px auto 0;
+	border-radius: 20px;
+	}
+	.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.flex {
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+}
+/* ძაან პატარა */
+@media screen and (min-width: 534px) and (max-width: 579px) {
+	.list-container {
+	position: absolute;
+	left: 56.7%;
+	top: 189%;
+	transform: translate(-50%, -50%);
+	}
+	.result-font {
+	font-size: 0.55em;
+	}
+	.border-1 {
+	width: 310px;
+	height: 22px;
+	}
+	.border {
+	width: 310px;
+	height: 55px;
+	}
+	.more-info {
+	font-size: 0.425em;
+	}
+	.info {
+	font-size: 0.775em;
+	}
+	nav {
+        padding: 0 3px;
+    }
+    #header-ul li a {
+        padding: 0 8px;
+        font-size: 1.2em;
+    }
+    .brand {
+        font-size: 1.2em;
+    }
+    .menu-button {
+        font-size: 1.2em;
+    }
+	.search-box{
+	width: 340px;
 	background: #000;
 	margin: 200px auto 0;
 	border-radius: 20px;
@@ -275,7 +331,7 @@ ul#list {
 @media screen and (min-width: 580px) and (max-width: 655px) {
 	.list-container {
 	position: absolute;
-	left: 50%;
+	left: 53%;
 	top: 189%;
 	transform: translate(-50%, -50%);
 	}
@@ -283,11 +339,11 @@ ul#list {
 	font-size: 0.6em;
 	}
 	.border-1 {
-	width: 367px;
+	width: 350px;
 	height: 22px;
 	}
 	.border {
-	width: 367px;
+	width: 350px;
 	height: 55px;
 	}
 	.more-info {
@@ -499,7 +555,6 @@ ul#list {
 	transform: translate(-50%, -50%);
 	}
 }
-
 /* დიდი */
 @media screen and (min-width: 850px) and (max-width: 989px) {
 	.list-container {
@@ -560,7 +615,8 @@ ul#list {
 /* ძაან დიდი */
 @media screen and (min-width: 990px) and (max-width: 1074px) {
 	.list-container {
-		top: 205%;
+	top: 205%;
+	left: 46%;
 	}
 	.result-font {
 	font-size: 0.8em;
